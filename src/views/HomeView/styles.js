@@ -55,6 +55,7 @@ export default {
     fontSize: '1em',
     margin: 'auto auto 40px',
     outline: 'none',
+    textDecoration: 'none',
     display: 'flex',
     alignItems: 'center',
     border: 0,
