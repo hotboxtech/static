@@ -55,7 +55,7 @@ export default {
     flex: '0 0 auto',
     margin: 'auto auto 40px',
     outline: 'none',
-    width: 'auto',
+    width: '100%',
     textDecoration: 'none',
     textAlign: 'center',
     display: 'flex',
