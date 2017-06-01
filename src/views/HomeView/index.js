@@ -20,7 +20,7 @@ export default class HomeView extends React.Component {
             />
             <h1 style={styles.title}>Hotbox</h1>
           </div>
-          <h4 style={styles.description}>We bring great ideas to life with technology.</h4>
+          <h4 style={styles.description}>Building the future of web technology.</h4>
           <a href="mailto:sup@hotbox.tech" style={styles.contactBtn}>
             Get in touch
             <i className="material-icons" style={styles.contactBtnIcon}>email</i>
