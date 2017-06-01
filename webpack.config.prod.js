@@ -5,8 +5,6 @@ module.exports = {
   name: 'client',
   entry: [
     'babel-polyfill',
-    'webpack-dev-server/client?http://localhost:8080',
-    'webpack/hot/only-dev-server',
     './src/_core/index.js',
   ],
   output: {
@@ -33,10 +31,20 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'react-es7-starter',
+      title: 'Hotbox Technologies',
       template: './src/_core/index.html',
     }),
-    new webpack.HotModuleReplacementPlugin(),
+    new webpack.optimize.UglifyJsPlugin({
+      beautify: false,
+      mangle: {
+        screw_ie8: true,
+        keep_fnames: true
+      },
+      compress: {
+        screw_ie8: true
+      },
+      comments: false
+    })
   ],
   node: {
     console: true,
