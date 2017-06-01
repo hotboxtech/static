@@ -42,6 +42,8 @@ export default {
     color: '#aaa',
     margin: '0 auto',
     fontSize: '1.25em',
+    width: 'auto',
+    textAlign: 'center',
     fontWeight: 400,
     '@media (max-width: 640px)': {
       fontSize: '1em',
@@ -53,6 +55,7 @@ export default {
     color: '#ccc',
     borderRadius: 100,
     fontSize: '1em',
+    flex: '0 0 auto',
     margin: 'auto auto 40px',
     outline: 'none',
     textDecoration: 'none',
