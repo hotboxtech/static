@@ -50,12 +50,12 @@ export default {
     },
   },
   contactBtn: {
-    padding: '15px 20px 15px 30px',
     color: '#ccc',
     fontSize: '1em',
     flex: '0 0 auto',
     margin: 'auto auto 40px',
     outline: 'none',
+    width: 'auto',
     textDecoration: 'none',
     textAlign: 'center',
     display: 'flex',
