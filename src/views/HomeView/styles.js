@@ -58,9 +58,6 @@ export default {
     flex: '0 0 auto',
     textDecoration: 'none',
     textAlign: 'center',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
     border: 0,
     transition: '400ms ease-out',
     ':hover': {
@@ -71,6 +68,6 @@ export default {
   },
   contactBtnIcon: {
     fontSize: '1em',
-    margin: 'auto 0 auto 10px',
+    margin: 'auto 10px auto 0',
   }
 };
