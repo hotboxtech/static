@@ -52,14 +52,15 @@ export default {
   contactBtn: {
     color: '#ccc',
     fontSize: '1em',
-    flex: '0 0 auto',
     margin: 'auto auto 40px',
     outline: 'none',
     width: '100%',
+    flex: '0 0 auto',
     textDecoration: 'none',
     textAlign: 'center',
     display: 'flex',
     alignItems: 'center',
+    justifyContent: 'center',
     border: 0,
     transition: '400ms ease-out',
     ':hover': {
@@ -70,6 +71,6 @@ export default {
   },
   contactBtnIcon: {
     fontSize: '1em',
-    margin: 'auto auto auto 10px',
+    margin: 'auto 0 auto 10px',
   }
 };
