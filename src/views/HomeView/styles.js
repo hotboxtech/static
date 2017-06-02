@@ -68,6 +68,6 @@ export default {
   },
   contactBtnIcon: {
     fontSize: '1em',
-    margin: 'auto 10px auto 0',
+    margin: 'auto 0 auto 10px',
   }
 };
